@@ -11,6 +11,8 @@ module.exports = {
             4: "#2E6BEF",
             5: "#DEE3FF",
             6: "#F5F6FA",
+            7: "#DCE7FA",
+            8: "#E5F2FA",
           },
           black: {
             1: "#000E29",
@@ -20,6 +22,10 @@ module.exports = {
           },
           red: {
             1: "#ED0707",
+          },
+          orange: {
+            1: "#FFEFE1",
+            2: "#F57200",
           },
         },
       },
