@@ -1,7 +1,7 @@
 <template>
-    <div class="grid grid-rows-2 grid-flow-col gap-4">
-        <div class="bg-white rounded-2xl">
-            <div class="relative m-2 py-6 pl-4 bg-brand-blue-6 rounded-2xl">
+    <div class="grid grid-rows-2 grid-cols-3 grid-flow-col gap-4">
+        <div class="flex items-center bg-white rounded-2xl">
+            <div class="w-full relative m-2 py-6 pl-4 bg-brand-blue-6 rounded-2xl">
                 <div>
                     <div class="flex items-center space-x-2">
                         <p class="mb-1">Total Sol Staked</p>
@@ -17,8 +17,8 @@
                 </div>
             </div>
         </div>
-        <div class="bg-white rounded-2xl">
-            <div class="relative m-2 py-6 pl-4 bg-brand-blue-6 rounded-2xl">
+        <div class="flex items-center bg-white rounded-2xl">
+            <div class="w-full relative m-2 py-6 pl-4 bg-brand-blue-6 rounded-2xl">
                 <div>
                     <div class="flex items-center space-x-2">
                         <p class="mb-1">Pools balance</p>
@@ -31,8 +31,8 @@
                 </div>
             </div>
         </div>
-        <div class="bg-white rounded-2xl">
-            <div class="relative m-2 py-6 pl-4 bg-brand-blue-6 rounded-2xl">
+        <div class="flex items-center bg-white rounded-2xl">
+            <div class="w-full relative m-2 py-6 pl-4 bg-brand-blue-6 rounded-2xl">
                 <div>
                     <div class="flex items-center space-x-2">
                         <p class="mb-1">EPOC 265</p>
@@ -45,8 +45,8 @@
                 </div>
             </div>
         </div>
-        <div class="bg-white rounded-2xl">
-            <div class="relative m-2 py-6 pl-4 bg-brand-blue-6 rounded-2xl">
+        <div class="flex items-center bg-white rounded-2xl">
+            <div class="w-full relative m-2 py-6 pl-4 bg-brand-blue-6 rounded-2xl">
                 <div>
                     <div class="flex items-center space-x-2">
                         <p class="mb-1">Farm balance</p>
@@ -59,8 +59,25 @@
                 </div>
             </div>
         </div>
-
-        <div class="row-span-2 bg-green-800">Hello</div>
+        <div class="row-span-2 bg-brand-blue-4 rounded-2xl">
+            <div class="relative m-3 py-6 px-4 bg-brand-blue-1 rounded-2xl text-white">
+                <p class="mb-1">Total Earnings</p>
+                <h3 class="font-bold text-2xl">
+                    $10,990.78
+                    <span class="text-sm font-semibold">+12.40%</span>
+                </h3>
+                <div class="mb-3">
+                    <img
+                        class="w-full"
+                        src="../assets/earnings-graph.png"
+                        alt="Earnings graph photo"
+                    />
+                </div>
+                <button
+                    class="w-full px-3 py-4 text-brand-blue-1 bg-white rounded-full font-semibold"
+                >Claim Earnings</button>
+            </div>
+        </div>
     </div>
 </template>
 
