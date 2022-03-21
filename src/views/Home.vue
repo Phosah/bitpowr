@@ -1,6 +1,9 @@
-<script setup lang="ts">
-</script>
-
 <template>
-  <main></main>
+  <main>
+    <DashboardInfoGrid />
+  </main>
 </template>
+
+<script setup lang="ts">
+import DashboardInfoGrid from "../components/DashboardInfoGrid.vue";
+</script>
