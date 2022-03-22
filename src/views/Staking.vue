@@ -48,9 +48,20 @@
             <StakingTotalSol />
             <StakingTotalEarnings />
         </div>
-        <div class="flex space-x-4">
+        <div class="mb-8 flex space-x-4">
             <MostRatedCollections :collections="collectionsArr" />
             <TopValidators :validators="validatorsArr" />
+        </div>
+        <div>
+            <div class="mb-6 px-6 bg-white">
+                <div class="flex items-center space-x-10">
+                    <p
+                        class="py-6 text-brand-blue-1 font-bold border-b-4 border-brand-blue-1"
+                    >Staked Accounts</p>
+                    <p class="py-6">Transaction History</p>
+                </div>
+            </div>
+            <StakedAccounts :accounts="accountsArr" />
         </div>
     </div>
 </template>
@@ -74,6 +85,8 @@ import validatorImg2 from "../assets/staking-facility.png"
 import validatorImg3 from "../assets/bison-trails.png"
 import validatorImg4 from "../assets/chorus-one.png"
 import validatorImg5 from "../assets/certus-one.png"
+import StakedAccounts from "../components/StakedAccounts.vue"
+import type StakedAccount from '@/types/StakedAccount';
 
 const collectionsArr = ref<RatedCollection[]>([
     {
@@ -169,5 +182,71 @@ const validatorsArr = ref<Validator[]>([
 
     },
 ])
-
+const accountsArr = ref<StakedAccount[]>([
+    {
+        img: validatorImg1,
+        alt: "P2P",
+        name: "P2P.ORG - P2P",
+        link: "https://p2p.org",
+        stakedAmountUsd: "3,000",
+        stakedAmountSol: "44,536.50",
+        earningsUsd: 500,
+        earningsSol: "11,536.50",
+        status: "Active",
+        accountId: "0xac...C6755",
+        date: "Jan 14, 2022"
+    },
+    {
+        img: validatorImg2,
+        alt: "Staking",
+        name: "Staking Facilities",
+        link: "https://stakingfacilities.com",
+        stakedAmountUsd: "15,000",
+        stakedAmountSol: "44,536.50",
+        earningsUsd: 75,
+        earningsSol: "44,536.50",
+        status: "Active",
+        accountId: "0xac...C6755",
+        date: "Jan 14, 2022"
+    },
+    {
+        img: validatorImg3,
+        alt: "Bison Trails",
+        name: "Bison Trails",
+        link: "https://bisontrails.co",
+        stakedAmountUsd: "9,500",
+        stakedAmountSol: "61,536.50",
+        earningsUsd: 97,
+        earningsSol: "61,536.50",
+        status: "Pending",
+        accountId: "0xac...C6755",
+        date: "Jan 14, 2022"
+    },
+    {
+        img: validatorImg4,
+        alt: "Chorus One",
+        name: "Chorus One",
+        link: "https://chorus.one",
+        stakedAmountUsd: "3,000",
+        stakedAmountSol: "11,536.50",
+        earningsUsd: 32,
+        earningsSol: "11,536.50",
+        status: "Active",
+        accountId: "0xac...C6755",
+        date: "Jan 14, 2022"
+    },
+    {
+        img: validatorImg5,
+        alt: "Certus One",
+        name: "Certus One",
+        link: "https://certus.one",
+        stakedAmountUsd: "3,000",
+        stakedAmountSol: "44,536.50",
+        earningsUsd: 76,
+        earningsSol: "44,536.50",
+        status: "Pending",
+        accountId: "0xac...C6755",
+        date: "Jan 14, 2022"
+    },
+])
 </script>

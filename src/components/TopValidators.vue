@@ -22,12 +22,16 @@
                             <img :src="validator.img" :alt="validator.alt" />
                         </div>
                         <div>
-                            <h3 class="mb-1 text-brand-blue-3">{{ validator.name }}</h3>
-                            <p class="text-xs border-b border-brand-blue-2">{{ validator.link }}</p>
+                            <h3 class="mb-1 text-brand-blue-3 font-medium">{{ validator.name }}</h3>
+                            <div class="flex">
+                                <p class="text-xs border-b border-brand-blue-2">{{ validator.link }}</p>
+                            </div>
                         </div>
                     </div>
                     <div class="flex-1">
-                        <h3 class="mb-1 text-brand-blue-3">{{ validator.validatorsAvg }}%</h3>
+                        <h3
+                            class="mb-1 text-brand-blue-3 font-medium"
+                        >{{ validator.validatorsAvg }}%</h3>
                         <p class="text-xs">{{ validator.numDelegated }} Delegated</p>
                     </div>
                     <div class="flex-1 text-brand-blue-1">

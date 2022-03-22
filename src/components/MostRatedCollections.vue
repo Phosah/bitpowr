@@ -22,12 +22,14 @@
                             <img :src="collection.img" :alt="collection.alt" />
                         </div>
                         <div>
-                            <h3 class="mb-1 text-brand-blue-3">{{ collection.name }}</h3>
+                            <h3 class="mb-1 text-brand-blue-3 font-medium">{{ collection.name }}</h3>
                             <p class="text-xs">{{ collection.upvotes }}</p>
                         </div>
                     </div>
                     <div class="flex-1">
-                        <h3 class="mb-1 text-brand-blue-3">{{ collection.numOfValidators }}</h3>
+                        <h3
+                            class="mb-1 text-brand-blue-3 font-medium"
+                        >{{ collection.numOfValidators }}</h3>
                         <p class="text-xs">Avg Fee: {{ collection.validatorsAvg }}%</p>
                     </div>
                     <div class="flex-1 text-brand-blue-1">
