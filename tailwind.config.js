@@ -28,6 +28,10 @@ module.exports = {
             1: "#FFEFE1",
             2: "#F57200",
           },
+          purple: {
+            1: "#EDEDFF",
+            2: "#7B79FF",
+          },
         },
       },
     },
