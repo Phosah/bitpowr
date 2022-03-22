@@ -1,5 +1,5 @@
 <template>
-    <div class="w-56 py-8 bg-white rounded-tr-3xl">
+    <div class="w-50 py-8 bg-white rounded-tr-3xl">
         <div class="mb-12 px-8">
             <img src="../assets/bitpowr-logo.png" alt="Bitpowr logo" />
         </div>

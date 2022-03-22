@@ -43,10 +43,131 @@
                 </div>
             </div>
         </div>
+        <div class="my-8 grid grid-cols-3 gap-4">
+            <StakingAvailableBalance />
+            <StakingTotalSol />
+            <StakingTotalEarnings />
+        </div>
+        <div class="flex space-x-4">
+            <MostRatedCollections :collections="collectionsArr" />
+            <TopValidators :validators="validatorsArr" />
+        </div>
     </div>
 </template>
 
 <script setup lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent, ref } from 'vue'
+import type RatedCollection from '@/types/RatedCollection';
+import StakingAvailableBalance from "@/components/StakingAvailableBalance.vue"
+import StakingTotalEarnings from "@/components/StakingTotalEarnings.vue"
+import StakingTotalSol from "@/components/StakingTotalSol.vue"
+import MostRatedCollections from "../components/MostRatedCollections.vue"
+import collectionImg1 from "../assets/coin-bureau.png"
+import collectionImg2 from "../assets/lindsey-list.png"
+import collectionImg3 from "../assets/daily-staker.png"
+import collectionImg4 from "../assets/jamie-tree.png"
+import collectionImg5 from "../assets/alt-coin-daily.png"
+import type Validator from '@/types/Validator';
+import TopValidators from '../components/TopValidators.vue';
+import validatorImg1 from "../assets/p2p.png"
+import validatorImg2 from "../assets/staking-facility.png"
+import validatorImg3 from "../assets/bison-trails.png"
+import validatorImg4 from "../assets/chorus-one.png"
+import validatorImg5 from "../assets/certus-one.png"
+
+const collectionsArr = ref<RatedCollection[]>([
+    {
+        img: collectionImg1,
+        alt: "Coin Bureau",
+        name: "Coin Bureau",
+        upvotes: 576,
+        numOfValidators: 30,
+        validatorsAvg: 6,
+
+    },
+    {
+        img: collectionImg2,
+        alt: "Lindsey List",
+        name: "Lindsey List",
+        upvotes: 436,
+        numOfValidators: 30,
+        validatorsAvg: 6,
+
+    },
+    {
+        img: collectionImg3,
+        alt: "Daily Staker",
+        name: "Daily Staker",
+        upvotes: 126,
+        numOfValidators: 30,
+        validatorsAvg: 6,
+
+    },
+    {
+        img: collectionImg4,
+        alt: "Jamie Tree",
+        name: "Jamie Tree",
+        upvotes: 276,
+        numOfValidators: 30,
+        validatorsAvg: 6,
+
+    },
+    {
+        img: collectionImg5,
+        alt: "Alt coin Daily",
+        name: "Alt coin Daily",
+        upvotes: 312,
+        numOfValidators: 30,
+        validatorsAvg: 6,
+
+    },
+])
+const validatorsArr = ref<Validator[]>([
+    {
+        img: validatorImg1,
+        alt: "P2P",
+        name: "P2P.ORG - P2P",
+        link: "https://p2p.org",
+        validatorsAvg: 7.5,
+        numDelegated: 350,
+
+    },
+    {
+        img: validatorImg2,
+        alt: "Staking",
+        name: "Staking Facilit...",
+        link: "https://stakingfacilit...",
+        validatorsAvg: 8.1,
+        numDelegated: 350,
+
+    },
+    {
+        img: validatorImg3,
+        alt: "Bison trails",
+        name: "Bison Trails",
+        link: "https://bisontrails.co",
+        validatorsAvg: 5.5,
+        numDelegated: 350,
+
+    },
+    {
+        img: validatorImg4,
+        alt: "chorus one",
+        name: "Chorus One",
+        link: "https://chorus.one",
+        validatorsAvg: 0,
+        numDelegated: 350,
+
+    },
+    {
+        img: validatorImg5,
+        alt: "certus one",
+        name: "Certus One",
+        link: "https://certus.one",
+        validatorsAvg: 12,
+        numDelegated: 350,
+
+    },
+])
 
 </script>
