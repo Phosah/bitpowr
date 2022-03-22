@@ -62,6 +62,7 @@
                 </div>
             </div>
             <StakedAccounts :accounts="accountsArr" />
+            <TransactionHistory :accounts="accountsArr" />
         </div>
     </div>
 </template>
@@ -87,6 +88,7 @@ import validatorImg4 from "../assets/chorus-one.png"
 import validatorImg5 from "../assets/certus-one.png"
 import StakedAccounts from "../components/StakedAccounts.vue"
 import type StakedAccount from '@/types/StakedAccount';
+import TransactionHistory from '../components/TransactionHistory.vue';
 
 const collectionsArr = ref<RatedCollection[]>([
     {
