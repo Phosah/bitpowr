@@ -46,13 +46,13 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import type { PropType } from 'vue'
-import type Validator from "../types/Validator"
+import type TopValidator from "../types/TopValidator"
 
 export default defineComponent({
     name: "TopValidators",
     props: {
         validators: {
-            type: Array as PropType<Validator[]>,
+            type: Array as PropType<TopValidator[]>,
             required: true
         }
     },

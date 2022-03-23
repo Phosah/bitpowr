@@ -79,7 +79,7 @@ import collectionImg2 from "../assets/lindsey-list.png"
 import collectionImg3 from "../assets/daily-staker.png"
 import collectionImg4 from "../assets/jamie-tree.png"
 import collectionImg5 from "../assets/alt-coin-daily.png"
-import type Validator from '@/types/Validator';
+import type TopValidator from '@/types/TopValidator';
 import TopValidators from '../components/TopValidators.vue';
 import validatorImg1 from "../assets/p2p.png"
 import validatorImg2 from "../assets/staking-facility.png"
@@ -137,7 +137,7 @@ const collectionsArr = ref<RatedCollection[]>([
 
     },
 ])
-const validatorsArr = ref<Validator[]>([
+const validatorsArr = ref<TopValidator[]>([
     {
         img: validatorImg1,
         alt: "P2P",

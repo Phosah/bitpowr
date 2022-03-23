@@ -3,8 +3,10 @@ interface Validator {
     alt: string,
     name: string,
     link: string,
-    validatorsAvg: number,
-    numDelegated: number,
+    fee: number,
+    stakeCrypto: string,
+    stakeUsd: string,
+    delegator: string
 }
 
 export default Validator

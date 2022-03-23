@@ -62,18 +62,77 @@
                 </div>
             </div>
         </div>
-        <Validators />
+        <Validators :validators="validatorsArr" />
     </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent, ref } from 'vue'
 import Validators from '../components/Validators.vue'
+import type Validator from '@/types/Validator'
+import validatorImg1 from "../assets/p2p.png"
+import validatorImg2 from "../assets/staking-facility.png"
+import validatorImg3 from "../assets/bison-trails.png"
+import validatorImg4 from "../assets/chorus-one.png"
+import validatorImg5 from "../assets/certus-one.png"
 
 export default defineComponent({
     name: "SingleCollection",
+    components: { Validators },
     setup() {
+        const validatorsArr = ref<Validator[]>([
+            {
+                img: validatorImg1,
+                alt: "p2p",
+                name: "P2P.ORG - P2P",
+                link: "https://p2p.org",
+                fee: 7.5,
+                stakeCrypto: "3,119,907.11 (0.84%)",
+                stakeUsd: "$26,657,887.09",
+                delegator: "Jan 14, 2022"
+            },
+            {
+                img: validatorImg2,
+                alt: "Staking Facilitator",
+                name: "Staking Facilitator",
+                link: "https://stakingfacilitator.org",
+                fee: 8.1,
+                stakeCrypto: "289,791.86 (0.73%)",
+                stakeUsd: "$21,554,876.99",
+                delegator: "Jan 14, 2022"
+            },
+            {
+                img: validatorImg3,
+                alt: "Bison Trails",
+                name: "Bison Trails",
+                link: "https://bisontrails.co",
+                fee: 0,
+                stakeCrypto: "249,719.34 (0.08%)",
+                stakeUsd: "$18,761,627.03",
+                delegator: "Jan 14, 2022"
+            },
+            {
+                img: validatorImg4,
+                alt: "Chorus One",
+                name: "Chorus One",
+                link: "https://chorus.one",
+                fee: 12,
+                stakeCrypto: "210,424.12 (0.08%)",
+                stakeUsd: "$15,827,646.00",
+                delegator: "Jan 14, 2022"
+            },
+            {
+                img: validatorImg5,
+                alt: "Certus One",
+                name: "Certus One",
+                link: "https://certus.one",
+                fee: 8.5,
+                stakeCrypto: "3,056,204.98 (0.84%)",
+                stakeUsd: "$21,102,665.35",
+                delegator: "Jan 14, 2022"
+            },
+        ])
+        return { validatorsArr }
     },
-    components: { Validators }
 })
 </script>
