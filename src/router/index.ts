@@ -5,6 +5,8 @@ import Collections from '../views/Collections.vue'
 import SingleCollection from '../views/SingleCollection.vue'
 import Validators from '../views/Validators.vue'
 import DelegateStake from '../views/DelegateStake.vue'
+import SwapBridge from '../views/SwapBridge.vue'
+import Settings from '../views/Settings.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,6 +40,16 @@ const router = createRouter({
       path: '/delegatestake',
       name: 'DelegateStake',
       component: DelegateStake
+    },
+    {
+      path: '/swapbridge',
+      name: 'SwapBridge',
+      component: SwapBridge
+    },
+    {
+      path: '/settings',
+      name: 'settings',
+      component: Settings
     },
   ]
 })
