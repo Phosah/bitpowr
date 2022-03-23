@@ -54,8 +54,8 @@
                 <div class="flex items-center py-6 px-4">
                     <div class="w-1/5 flex items-center space-x-2">
                         <input type="checkbox" name="collection" id="collection" />
-                        <div class>
-                            <img class :src="validator.img" :alt="validator.alt" />
+                        <div class="flex">
+                            <img class="flex-auto" :src="validator.img" :alt="validator.alt" />
                         </div>
                         <div>
                             <h3 class="mb-1 text-brand-blue-3 font-medium">{{ validator.name }}</h3>
@@ -97,7 +97,7 @@ import type { PropType } from 'vue'
 import type Validator from '@/types/Validator'
 
 export default defineComponent({
-    name: "Validators",
+    name: "AllValidators",
     props: {
         validators: {
             type: Array as PropType<Validator[]>,

@@ -62,13 +62,13 @@
                 </div>
             </div>
         </div>
-        <Validators :validators="validatorsArr" />
+        <AllValidators :validators="validatorsArr" />
     </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import Validators from '../components/Validators.vue'
+import AllValidators from '../components/AllValidators.vue'
 import type Validator from '@/types/Validator'
 import validatorImg1 from "../assets/p2p.png"
 import validatorImg2 from "../assets/staking-facility.png"
@@ -78,7 +78,7 @@ import validatorImg5 from "../assets/certus-one.png"
 
 export default defineComponent({
     name: "SingleCollection",
-    components: { Validators },
+    components: { AllValidators },
     setup() {
         const validatorsArr = ref<Validator[]>([
             {
