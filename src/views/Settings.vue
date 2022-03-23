@@ -94,13 +94,13 @@
                     placeholder="Search for collection"
                 />
             </div>
-            <div class="mb-12 flex items-center space-x-3">
+            <div class="mb-8 flex items-center space-x-3">
                 <div class="flex items-center space-x-2 px-3 py-2 bg-brand-blue-11 rounded-full">
                     <img src="../assets/small-btc-logo.png" alt="btc" />
                     <p class="text-brand-blue-3">BTC</p>
                 </div>
                 <div class="flex items-center space-x-2 px-3 py-2 bg-brand-blue-11 rounded-full">
-                    <img src="../assets/small-eth-logo.png" alt="eth" />
+                    <img src="../assets/small-eth-logo-2.png" alt="eth" />
                     <p>ETH</p>
                 </div>
                 <div class="flex items-center space-x-2 px-3 py-2 bg-brand-blue-11 rounded-full">
@@ -112,29 +112,69 @@
                     <p>DEPO</p>
                 </div>
             </div>
-            <div class="divide-y divide-brand-blue-10">
-                <div class="flex items-center justify-between py-4">
-                    <div class="flex items-center space-x-4">
-                        <img src="../assets/ada-logo.png" alt="Ada logo" />
-                        <div>
-                            <h1 class="text-lg text-brand-blue-3 font-bold">ADA</h1>
-                            <p class="text-xs">Cardano</p>
-                        </div>
-                    </div>
-                    <p>0</p>
-                </div>
-            </div>
+            <Tokens :tokens="tokensArr" />
         </div>
     </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent, ref } from 'vue'
+import Tokens from "../components/Tokens.vue"
+import type Token from '@/types/Token'
+import tokenImg1 from "../assets/ada-logo.png"
+import tokenImg2 from "../assets/btc-logo.png"
+import tokenImg3 from "../assets/dot-logo.png"
+import tokenImg4 from "../assets/eth-logo.png"
+import tokenImg5 from "../assets/iost-logo.png"
 
 export default defineComponent({
     name: "Settings",
-    setup() {
+    components: { Tokens },
+    setup(props) {
+        const tokensArr = ref<Token[]>([
+            {
+                img: tokenImg1,
+                alt: "Cardano",
+                abr: "ADA",
+                name: "Cardano",
+                tokenValue: 0,
+                tokenNum: 30
+            },
+            {
+                img: tokenImg2,
+                alt: "btc",
+                abr: "BTC",
+                name: "Bitcon",
+                tokenValue: 0.0123,
+                tokenNum: 30
+            },
+            {
+                img: tokenImg1,
+                alt: "eth",
+                abr: "ETH",
+                name: "Ether",
+                tokenValue: 0,
+                tokenNum: 30
+            },
+            {
+                img: tokenImg4,
+                alt: "Polkadot",
+                abr: "DOT",
+                name: "Polkadot",
+                tokenValue: 234.56,
+                tokenNum: 30
+            },
+            {
+                img: tokenImg5,
+                alt: "IOST",
+                abr: "IOST",
+                name: "IOST",
+                tokenValue: 0,
+                tokenNum: 30
+            },
 
+        ])
+        return { tokensArr }
     },
 })
 </script>
