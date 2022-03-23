@@ -4,6 +4,7 @@ import Staking from '../views/Staking.vue'
 import Collections from '../views/Collections.vue'
 import SingleCollection from '../views/SingleCollection.vue'
 import Validators from '../views/Validators.vue'
+import DelegateStake from '../views/DelegateStake.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,11 @@ const router = createRouter({
       path: '/validators',
       name: 'validators',
       component: Validators
+    },
+    {
+      path: '/delegatestake',
+      name: 'DelegateStake',
+      component: DelegateStake
     },
   ]
 })
