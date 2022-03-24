@@ -19,7 +19,10 @@
         <p class="text-brand-blue-1 font-bold">Clear all</p>
     </div>
     <div class="flex items-center justify-between">
-        <img src="../assets/depo-logo.png" alt="Depo logo" />
+        <div class="flex items-center space-x-2">
+            <img src="../assets/depo-logo.png" alt="Depo logo" />
+            <p class="text-brand-blue-3 font-bold">Depo</p>
+        </div>
         <div class="flex items-center space-x-3">
             <div>
                 <svg
