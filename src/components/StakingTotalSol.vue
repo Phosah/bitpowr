@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div class="flex items-center bg-white rounded-2xl">
-            <div class="w-full relative m-2 py-8 pl-4 bg-brand-blue-6 rounded-2xl">
+        <div class="flex items-center p-2 bg-white rounded-2xl">
+            <div class="w-full relative py-8 pl-4 bg-brand-blue-6 rounded-2xl">
                 <div>
                     <div class="flex items-center space-x-2">
                         <p class="mb-1">Total Sol Staked</p>
