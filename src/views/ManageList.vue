@@ -70,9 +70,12 @@
                         placeholder="Search for collection"
                     />
                 </div>
-                <Lists :lists="listsArr" />
-
-                <ManageListTokens :tokens="tokensArr" />
+                <div v-if="list">
+                    <Lists :lists="listsArr" />
+                </div>
+                <div v-if="token">
+                    <ManageListTokens :tokens="tokensArr" />
+                </div>
             </div>
         </div>
     </div>
@@ -95,6 +98,8 @@ export default defineComponent({
     name: "ManageList",
     components: { Lists, ManageListTokens },
     setup() {
+        const token = ref(true)
+        const list = ref(false)
         const listsArr = ref<Token[]>([
             {
                 img: tokenImg6,
@@ -147,7 +152,7 @@ export default defineComponent({
                 tokenNum: 11
             },
         ])
-        return { listsArr, tokensArr }
+        return { listsArr, tokensArr, token, list }
     },
 })
 </script>
