@@ -13,6 +13,7 @@ import LiquidityPool from '../views/LiquidityPool.vue'
 import AddLiquidity from '../views/AddLiquidity.vue'
 import SinglePool from '../views/SinglePool.vue'
 import CreatePair from '../views/CreatePair.vue'
+import Farms from '../views/Farms.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -86,6 +87,11 @@ const router = createRouter({
       path: '/createpair',
       name: 'CreatePair',
       component: CreatePair
+    },
+    {
+      path: '/farms',
+      name: 'farms',
+      component: Farms
     },
   ]
 })
