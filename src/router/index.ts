@@ -7,6 +7,8 @@ import Validators from '../views/Validators.vue'
 import DelegateStake from '../views/DelegateStake.vue'
 import SwapBridge from '../views/SwapBridge.vue'
 import Settings from '../views/Settings.vue'
+import SwapConfirmation from '../views/SwapConfirmation.vue'
+import ManageList from '../views/ManageList.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -50,6 +52,16 @@ const router = createRouter({
       path: '/settings',
       name: 'settings',
       component: Settings
+    },
+    {
+      path: '/swapconfirmation',
+      name: 'SwapConfirmation',
+      component: SwapConfirmation
+    },
+    {
+      path: '/managelist',
+      name: 'ManageList',
+      component: ManageList
     },
   ]
 })

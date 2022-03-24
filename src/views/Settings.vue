@@ -91,7 +91,7 @@
                 <input
                     class="bg-transparent w-full"
                     type="text"
-                    placeholder="Search for collection"
+                    placeholder="Search and paste token address"
                 />
             </div>
             <div class="mb-8 flex items-center space-x-3">
@@ -149,7 +149,7 @@ export default defineComponent({
                 tokenNum: 30
             },
             {
-                img: tokenImg1,
+                img: tokenImg3,
                 alt: "eth",
                 abr: "ETH",
                 name: "Ether",

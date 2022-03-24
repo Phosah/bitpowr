@@ -36,7 +36,9 @@
             <img class="absolute right-0 bottom-0" src="../assets/swap-img.png" alt="Swap img" />
         </div>
         <div class="flex space-x-6">
-            <Swap />
+            <div class="w-1/3">
+                <Swap />
+            </div>
             <SwapChart />
         </div>
     </div>

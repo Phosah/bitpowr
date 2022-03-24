@@ -1,5 +1,5 @@
 <template>
-    <div class="w-1/3 p-6 bg-white rounded-2xl">
+    <div class="p-6 bg-white rounded-2xl">
         <div class="mb-6 flex items-center justify-between">
             <div class="flex space-x-8">
                 <h2 class="pb-4 border-b-4 border-brand-blue-1 text-brand-blue-3 font-bold">Swap</h2>
@@ -16,7 +16,7 @@
                     <h3 class="text-brand-blue-3">Sending</h3>
                     <p>Balance: 0.789657</p>
                 </div>
-                <div class="bg-brand-blue-10 p-4 rounded-xl">
+                <div class="bg-brand-blue-11 border border-brand-blue-11 p-4 rounded-xl">
                     <div class="mb-3 flex items-center justify-between">
                         <div class="flex items-center space-x-2">
                             <img src="../assets/small-btc-logo.png" alt="btc logo" />
@@ -39,10 +39,10 @@
             </div>
             <div class="mb-3">
                 <div class="mb-3 flex items-center justify-between">
-                    <h3 class="text-brand-blue-3">Sending</h3>
+                    <h3 class="text-brand-blue-3">Receiving</h3>
                     <p>Balance: 0.789657</p>
                 </div>
-                <div class="bg-brand-blue-10 p-4 rounded-xl">
+                <div class="bg-brand-blue-11 border border-brand-blue-11 p-4 rounded-xl">
                     <div class="mb-3 flex items-center justify-between">
                         <div class="flex items-center space-x-2">
                             <img src="../assets/small-usdt-logo.png" alt="btc logo" />
@@ -60,9 +60,28 @@
                     </div>
                 </div>
             </div>
-            <div class="mb-8 flex items-center justify-between">
+            <div class="mb-4 flex items-center justify-between">
                 <p>Slippage Tolerance</p>
                 <p>14%</p>
+            </div>
+            <!-- display for slippage settings -->
+            <div class="mb-8 p-4 border border-brand-blue-11 rounded-xl">
+                <div class="mb-3 flex items-center justify-between text-xs">
+                    <p>Slippage Tolerance</p>
+                    <p>14%</p>
+                </div>
+                <div class="mb-3 flex items-center justify-between text-xs">
+                    <p>Rate</p>
+                    <p>1 BTC = 48,506 USDT</p>
+                </div>
+                <div class="mb-3 flex items-center justify-between text-xs">
+                    <p>Below Market Price</p>
+                    <p>3.2%</p>
+                </div>
+                <div class="mb-3 flex items-center justify-between text-xs">
+                    <p>Gas Fee</p>
+                    <p>0.0065 ETH (~$32.56)</p>
+                </div>
             </div>
             <button class="w-full px-6 py-3 text-white bg-brand-blue-1 rounded-full">Swap</button>
         </div>
