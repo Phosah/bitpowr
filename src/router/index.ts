@@ -9,7 +9,8 @@ import SwapBridge from '../views/SwapBridge.vue'
 import Settings from '../views/Settings.vue'
 import SwapConfirmation from '../views/SwapConfirmation.vue'
 import ManageList from '../views/ManageList.vue'
-import Liquidity from '../views/Liquidity.vue'
+import LiquidityPool from '../views/LiquidityPool.vue'
+import AddLiquidity from '../views/AddLiquidity.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -65,9 +66,14 @@ const router = createRouter({
       component: ManageList
     },
     {
-      path: '/liquidity',
-      name: 'liquidity',
-      component: Liquidity
+      path: '/liquiditypool',
+      name: 'LiquidityPool',
+      component: LiquidityPool
+    },
+    {
+      path: '/addliquidity',
+      name: 'AddLiquidity',
+      component: AddLiquidity
     },
   ]
 })
