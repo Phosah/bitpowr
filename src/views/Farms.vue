@@ -4,24 +4,20 @@
             class="overflow-hidden relative mb-8 py-4 px-8 bg-gradient-to-r from-brand-blue-7 to-brand-blue-8 rounded-2xl"
         >
             <div class="flex justify-end relative z-50">
-                <div
-                    class="w-8 h-8 flex items-center justify-center bg-brand-blue-1 bg-opacity-80 rounded-full"
+                <svg
+                    class="w-6 h-6 text-brand-blue-3"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
                 >
-                    <svg
-                        class="w-6 h-6 text-brand-blue-3"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M6 18L18 6M6 6l12 12"
-                        />
-                    </svg>
-                </div>
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M6 18L18 6M6 6l12 12"
+                    />
+                </svg>
             </div>
             <div class="w-1/2">
                 <p class="mb-8">
@@ -123,7 +119,7 @@
                 <p class="mb-8 text-xs">0.00 AIS Earnings</p>
                 <div
                     class="w-full px-10 py-3 text-white text-center bg-brand-blue-1 rounded-full"
-                >Enable Contract</div>
+                >Stake in Farm</div>
             </div>
             <div class="p-8 rounded-2xl bg-white">
                 <div class="mb-6 flex items-center space-x-2">
