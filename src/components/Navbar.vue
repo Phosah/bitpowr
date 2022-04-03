@@ -5,7 +5,7 @@
                 <div class="flex items-center space-x-3">
                     <h2 class="font-recoleta-regular text-xl text-brand-black-1">
                         Hello
-                        <span class="font-bold">James</span>
+                        <span class="font-extrabold">James</span>
                     </h2>
                     <img src="../assets/hand-icon.png" alt="Hands icon" />
                 </div>
@@ -24,7 +24,7 @@
                 >
                     <img src="../assets/small-eth-logo.png" alt="eth logo" />
                     <input
-                        class="w-full h-full bg-transparent focus-within:outline-none placeholder:text-brand-blue-3 font-semibold"
+                        class="w-full h-full bg-transparent focus-within:outline-none placeholder:text-brand-blue-3 font-euclid-medium"
                         type="text"
                         placeholder="Etherum"
                     />
@@ -46,7 +46,9 @@
         </div>
         <p class>
             Welcome back, your investments are up by
-            <span class="text-brand-green-1">+24.6%</span>
+            <span
+                class="text-brand-green-1 font-semibold"
+            >+24.6%</span>
         </p>
     </div>
 </template>

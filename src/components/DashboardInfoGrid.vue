@@ -3,8 +3,8 @@
         <div class="bg-white p-2 rounded-2xl">
             <div class="w-full h-full relative flex items-center bg-brand-blue-6 rounded-2xl">
                 <div class="pl-4">
-                    <div class="flex items-center space-x-2">
-                        <p class="mb-1">Total Sol Staked</p>
+                    <div class="flex items-center space-x-2 mb-1">
+                        <p class>Total Sol Staked</p>
                         <img src="../assets/info-icon.svg" alt="Info icon" />
                     </div>
                     <p class="font-proxima-bold text-2xl text-brand-blue-3">
@@ -21,8 +21,8 @@
         <div class="p-2 bg-white rounded-2xl">
             <div class="w-full h-full relative flex items-center bg-brand-blue-6 rounded-2xl">
                 <div class="pl-4">
-                    <div class="flex items-center space-x-2">
-                        <p class="mb-1">Pools balance</p>
+                    <div class="flex items-center space-x-2 mb-1">
+                        <p class>Pools balance</p>
                         <img src="../assets/info-icon.svg" alt="Info icon" />
                     </div>
                     <p class="font-proxima-bold text-2xl text-brand-blue-3">$7,000</p>
@@ -36,8 +36,8 @@
         <div class="p-2 bg-white rounded-2xl">
             <div class="w-full h-full relative flex items-center bg-brand-blue-6 rounded-2xl">
                 <div class="pl-4">
-                    <div class="flex items-center space-x-2">
-                        <p class="mb-1">EPOC 265</p>
+                    <div class="flex items-center space-x-2 mb-1">
+                        <p class>EPOC 265</p>
                         <img src="../assets/info-icon.svg" alt="Info icon" />
                     </div>
                     <p class="font-proxima-bold text-2xl text-brand-blue-1">1d:23m:45s</p>
@@ -50,8 +50,8 @@
         <div class="p-2 bg-white rounded-2xl">
             <div class="w-full h-full relative flex items-center bg-brand-blue-6 rounded-2xl">
                 <div class="pl-4">
-                    <div class="flex items-center space-x-2">
-                        <p class="mb-1">Farm balance</p>
+                    <div class="flex items-center space-x-2 mb-1">
+                        <p class>Farm balance</p>
                         <img src="../assets/info-icon.svg" alt="Info icon" />
                     </div>
                     <p class="font-proxima-bold text-2xl text-brand-blue-3">$7,000</p>
@@ -65,7 +65,7 @@
             <div class="relative h-full w-full bg-brand-blue-1 rounded-2xl text-white">
                 <div class="p-6">
                     <p class="mb-1">Total Earnings</p>
-                    <h3 class="font-bold text-2xl">
+                    <h3 class="font-proxima-bold text-2xl">
                         $10,990.78
                         <span class="text-sm font-semibold">+12.40%</span>
                     </h3>

@@ -20,31 +20,31 @@ import Sidebar from "./components/Sidebar.vue";
 @font-face {
   font-family: "Recoleta";
   font-weight: 400;
-  src: local("Recoleta"), url("./fonts/Recoleta-Regular.otf") format("OpenType");
+  src: local("Recoleta"), url("./font/Recoleta-Regular.otf") format("OpenType");
 }
 @font-face {
   font-family: "Proxima Nova";
   font-weight: 400;
   src: local("ProximaNova"),
-    url("./fonts/Proxima-Nova-Regular.otf") format("OpenType");
+    url("./font/Proxima-Nova-Regular.otf") format("OpenType");
 }
 @font-face {
   font-family: "Proxima Nova";
   font-weight: 600;
   src: local("ProximaNova"),
-    url("./fonts/Proxima-Nova-Semibold.otf") format("OpenType");
+    url("./font/Proxima-Nova-Semibold.otf") format("OpenType");
 }
 @font-face {
   font-family: "Proxima Nova";
   font-weight: 700;
   src: local("ProximaNova"),
-    url("./fonts/Proxima-Nova-bold.otf") format("OpenType");
+    url("./font/Proxima-Nova-bold.otf") format("OpenType");
 }
 @font-face {
   font-family: "Euclid Circular A";
   font-weight: 500;
   src: local("Euclid Circular A"),
-    url("./fonts/Euclid-Circular-A-Medium.ttf") format("OpenType");
+    url("./font/Euclid-Circular-A-Medium.ttf") format("OpenType");
 }
 
 .font-recoleta-regular {

@@ -1,8 +1,8 @@
 <template>
     <div class="px-4 py-6 bg-white rounded-xl">
         <div class="mb-3">
-            <div class="flex items-center space-x-2">
-                <p class="mb-1">Trading Volume</p>
+            <div class="flex items-center space-x-2 mb-1">
+                <p class>Trading Volume</p>
                 <img src="../assets/info-icon.svg" alt="Info icon" />
             </div>
             <h3 class="font-proxima-bold text-2xl text-brand-blue-3">
