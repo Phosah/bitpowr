@@ -3,7 +3,7 @@
         <div class="flex items-center justify-between space-x-4">
             <div>
                 <div class="flex items-center space-x-3">
-                    <h2 class="text-xl text-brand-black-1">
+                    <h2 class="font-recoleta-regular text-xl text-brand-black-1">
                         Hello
                         <span class="font-bold">James</span>
                     </h2>
@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="flex items-center space-x-6">
-                <div class="flex items-center space-x-2">
+                <div class="font-euclid-medium flex items-center space-x-2">
                     <img src="../assets/usa-flag.png" alt="USA flag" />
                     <p>ENG</p>
                     <!-- <select class="bg-transparent" name="flag" id="flag">
@@ -20,11 +20,11 @@
                     <img class="w-3" src="../assets/dropdown-icon.svg" alt="Dropdown icon" />
                 </div>
                 <div
-                    class="flex items-center space-x-4 w-52 h-14 px-6 border-2 border-brand-blue-5 rounded-md"
+                    class="font-euclid-medium flex items-center space-x-4 w-52 h-14 px-6 border-2 border-brand-blue-5 rounded-md text-brand-blue-3"
                 >
                     <img src="../assets/small-eth-logo.png" alt="eth logo" />
                     <input
-                        class="w-full h-full bg-transparent focus-within:outline-none"
+                        class="w-full h-full bg-transparent focus-within:outline-none placeholder:text-brand-blue-3 font-semibold"
                         type="text"
                         placeholder="Etherum"
                     />

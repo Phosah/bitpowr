@@ -7,7 +7,7 @@
                         <p class="mb-1">Total Sol Staked</p>
                         <img src="../assets/info-icon.svg" alt="Info icon" />
                     </div>
-                    <p class="text-2xl text-brand-blue-3 font-bold">
+                    <p class="font-proxima-bold text-2xl text-brand-blue-3">
                         $7,000
                         <span class="text-xs text-brand-blue-2">1,000,000 Sol</span>
                     </p>
@@ -25,7 +25,7 @@
                         <p class="mb-1">Pools balance</p>
                         <img src="../assets/info-icon.svg" alt="Info icon" />
                     </div>
-                    <p class="text-2xl text-brand-blue-3 font-bold">$7,000</p>
+                    <p class="font-proxima-bold text-2xl text-brand-blue-3">$7,000</p>
                 </div>
                 <div class="absolute bottom-0 right-0">
                     <img src="../assets/pool-img.png" alt="Pool photo" />
@@ -40,7 +40,7 @@
                         <p class="mb-1">EPOC 265</p>
                         <img src="../assets/info-icon.svg" alt="Info icon" />
                     </div>
-                    <p class="text-2xl text-brand-blue-1 font-bold">1d:23m:45s</p>
+                    <p class="font-proxima-bold text-2xl text-brand-blue-1">1d:23m:45s</p>
                 </div>
                 <div class="absolute bottom-0 right-0">
                     <img src="../assets/epoc-img.png" alt="Epoc photo" />
@@ -54,7 +54,7 @@
                         <p class="mb-1">Farm balance</p>
                         <img src="../assets/info-icon.svg" alt="Info icon" />
                     </div>
-                    <p class="text-2xl text-brand-blue-3 font-bold">$7,000</p>
+                    <p class="font-proxima-bold text-2xl text-brand-blue-3">$7,000</p>
                 </div>
                 <div class="absolute bottom-0 right-0">
                     <img src="../assets/farm-img.png" alt="Farm photo" />
