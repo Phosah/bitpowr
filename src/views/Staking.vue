@@ -52,18 +52,18 @@
             <MostRatedCollections :collections="collectionsArr" />
             <TopValidators :validators="validatorsArr" />
         </div>
-        <div>
+        <div class>
             <div class="mb-6 px-6 bg-white">
                 <div class="flex items-center space-x-10">
                     <p
                         @click="selectTab('stakedAccounts')"
                         :class="selectedTab === 'stakedAccounts' ? 'py-6 text-brand-blue-1 font-bold border-b-4 border-brand-blue-1' : 'py-6 border-b-4 border-white'"
-                        class="cursor-pointer"
+                        class="transition-all ease-in-out delay-75 cursor-pointer"
                     >Staked Accounts</p>
                     <p
                         @click="selectTab('transactionHistory')"
                         :class="selectedTab === 'transactionHistory' ? 'py-6 text-brand-blue-1 font-bold border-b-4 border-brand-blue-1' : 'py-6 border-b-4 border-white'"
-                        class="cursor-pointer"
+                        class="transition-all ease-in-out delay-75 cursor-pointer"
                     >Transaction History</p>
                 </div>
             </div>

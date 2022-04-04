@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="max-w-2xl mx-auto my-10">
+        <div class="max-w-lg mx-auto my-10">
             <div class="flex items-center justify-end mb-4">
                 <div class="w-8 h-8 flex items-center justify-center bg-white rounded-md">
                     <svg
@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="p-8 bg-white rounded-2xl">
-                <h1 class="mb-6 font-bold text-lg text-brand-blue-3">Delegate Stake</h1>
+                <h1 class="mb-6 font-recoleta-bold text-lg text-brand-blue-3">Delegate Stake</h1>
                 <div
                     class="mb-6 flex items-center space-x-2 px-3 py-3 bg-brand-orange-1 rounded-2xl"
                 >
@@ -41,7 +41,7 @@
                         </p>
                     </div>
                     <div
-                        class="mb-3 flex items-center justify-between py-4 px-3 bg-brand-blue-11 rounded-xl"
+                        class="mb-3 flex items-center justify-between py-4 px-3 bg-brand-blue-11 rounded-xl border border-brand-blue-10"
                     >
                         <p class="text-brand-blue-3">27.67</p>
                         <h2 class="font-bold text-brand-blue-1">SOL</h2>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div class="mb-6">
-                    <h1 class="mb-3 font-bold text-lg text-brand-blue-3">Validators</h1>
+                    <h1 class="mb-3 font-recoleta-bold text-lg text-brand-blue-3">Validators</h1>
                     <p>Delegated amount was split evenly among the validators, but you can edit to your taste</p>
                 </div>
                 <div class="mb-6">
@@ -71,7 +71,9 @@
                         <p class="ml-10 font-bold text-brand-blue-1">CHANGE</p>
                     </div>
                     <div class="mb-3 flex items-center space-x-2">
-                        <div class="flex-1 py-4 px-3 bg-brand-blue-11 rounded-xl">
+                        <div
+                            class="flex-1 py-4 px-3 bg-brand-blue-11 rounded-xl border border-brand-blue-10"
+                        >
                             <p class="text-brand-blue-3">9.67</p>
                         </div>
                         <div>
@@ -101,7 +103,9 @@
                         <p class="ml-10 font-bold text-brand-blue-1">CHANGE</p>
                     </div>
                     <div class="mb-3 flex items-center space-x-2">
-                        <div class="flex-1 py-4 px-3 bg-brand-blue-11 rounded-xl">
+                        <div
+                            class="flex-1 py-4 px-3 bg-brand-blue-11 rounded-xl border border-brand-blue-10"
+                        >
                             <p class="text-brand-blue-3">9.67</p>
                         </div>
                         <div>
@@ -131,7 +135,9 @@
                         <p class="ml-10 font-bold text-brand-blue-1">CHANGE</p>
                     </div>
                     <div class="mb-3 flex items-center space-x-2">
-                        <div class="flex-1 py-4 px-3 bg-brand-blue-11 rounded-xl">
+                        <div
+                            class="flex-1 py-4 px-3 bg-brand-blue-11 rounded-xl border border-brand-blue-10"
+                        >
                             <p class="text-brand-blue-3">9.67</p>
                         </div>
                         <div>
@@ -156,7 +162,7 @@
             </div>
         </div>
         <!-- Calculator -->
-        <div class="max-w-2xl mx-auto my-10">
+        <div class="max-w-lg mx-auto my-10">
             <div class="flex items-center justify-end mb-4">
                 <div class="w-8 h-8 flex items-center justify-center bg-white rounded-md">
                     <svg
@@ -193,7 +199,7 @@
                             />
                         </svg>
                     </div>
-                    <h1 class="font-bold text-lg text-brand-blue-3">Calculator</h1>
+                    <h1 class="font-recoleta-bold text-lg text-brand-blue-3">Calculator</h1>
                 </div>
                 <div class="mb-6 px-3 py-3 bg-brand-orange-1 rounded-2xl">
                     <p class="text-brand-blue-3">
@@ -205,7 +211,7 @@
                 <div class="mb-6">
                     <p class="mb-3 text-brand-blue-3">Delegation Amount</p>
                     <div
-                        class="mb-3 flex items-center justify-between py-4 px-3 bg-brand-blue-11 rounded-xl"
+                        class="mb-3 flex items-center justify-between py-4 px-3 bg-brand-blue-11 rounded-xl border border-brand-blue-10"
                     >
                         <p class="text-brand-blue-3">2700.67</p>
                         <h2 class="font-bold text-brand-blue-1">SOL</h2>
@@ -213,13 +219,15 @@
                 </div>
                 <div class="mb-6">
                     <p class="mb-3 text-brand-blue-3">Delegation Amount</p>
-                    <div class="mb-3 py-4 px-3 text-brand-blue-3 bg-brand-blue-11 rounded-xl">Days</div>
+                    <div
+                        class="mb-3 py-4 px-3 text-brand-blue-3 bg-brand-blue-11 rounded-xl border border-brand-blue-10"
+                    >Days</div>
                 </div>
                 <button class="py-2 px-6 bg-brand-blue-1 rounded-full text-white">Calculate Rewards</button>
             </div>
         </div>
         <!-- Staking Successful -->
-        <div class="max-w-2xl mx-auto my-10">
+        <div class="max-w-lg mx-auto my-10">
             <div class="flex items-center justify-end mb-4">
                 <div class="w-8 h-8 flex items-center justify-center bg-white rounded-md">
                     <svg
@@ -241,7 +249,9 @@
             <div class="p-8 rounded-2xl bg-white">
                 <div class="w-10/12 mx-auto text-center">
                     <div class="my-14">
-                        <h1 class="mb-6 font-bold text-xl text-brand-blue-3">Staking successful</h1>
+                        <h1
+                            class="mb-6 font-recoleta-bold text-xl text-brand-blue-3"
+                        >Staking successful</h1>
                         <p>You have successfully staked 12900 SOL check back in a couple of days to see your tasty rewards acuumulating</p>
                     </div>
                     <div class="flex items-center space-x-10 justify-center">
@@ -256,7 +266,7 @@
             </div>
         </div>
         <!-- Undelegate -->
-        <div class="max-w-2xl mx-auto my-10">
+        <div class="max-w-lg mx-auto my-10">
             <div class="flex items-center justify-end mb-4">
                 <div class="w-8 h-8 flex items-center justify-center bg-white rounded-md">
                     <svg
@@ -276,7 +286,7 @@
                 </div>
             </div>
             <div class="p-8 bg-white rounded-2xl">
-                <h1 class="mb-8 font-bold text-lg text-brand-blue-3">Undelegate Stake</h1>
+                <h1 class="mb-8 font-recoleta-bold text-lg text-brand-blue-3">Undelegate Stake</h1>
                 <div class="mb-8">
                     <div class="mb-3 flex items-center justify-between text-brand-blue-3">
                         <p>Delegation Amount</p>
@@ -286,7 +296,7 @@
                         </p>
                     </div>
                     <div
-                        class="mb-3 flex items-center justify-between py-4 px-3 bg-brand-blue-11 rounded-xl"
+                        class="mb-3 flex items-center justify-between py-4 px-3 bg-brand-blue-11 rounded-xl border border-brand-blue-10"
                     >
                         <p class="text-brand-blue-3">27.67</p>
                         <h2 class="font-bold text-brand-blue-1">SOL</h2>

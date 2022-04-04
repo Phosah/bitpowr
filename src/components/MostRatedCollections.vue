@@ -6,8 +6,10 @@
                 <img src="../assets/info-icon.svg" alt="Info icon" />
             </div>
             <div
-                class="font-euclid-medium flex items-center space-x-4 py-2 px-8 border border-brand-blue-1 text-brand-blue-1 rounded-full"
-            >View All</div>
+                class="font-euclid-medium flex items-center space-x-4 py-2 px-8 border border-brand-blue-1 text-brand-blue-1 rounded-full cursor-pointer"
+            >
+                <router-link to="/collections">View All</router-link>
+            </div>
         </div>
         <div class="flex items-center px-3 py-6 font-bold bg-brand-blue-6 rounded-md">
             <h3 class="w-2/5">Collections</h3>
@@ -32,7 +34,7 @@
                         >{{ collection.numOfValidators }}</h3>
                         <p class="text-xs">Avg Fee: {{ collection.validatorsAvg }}%</p>
                     </div>
-                    <div class="flex-1 text-brand-blue-1">
+                    <div class="flex-1 text-brand-blue-1 cursor-pointer">
                         <button class="py-2 px-6 border border-brand-blue-1 rounded-full">View</button>
                     </div>
                 </div>

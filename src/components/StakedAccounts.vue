@@ -46,7 +46,6 @@
                             :class="account.status === 'Active' ? 'bg-brand-green-1' : 'bg-brand-orange-2'"
                             class="w-2 h-2 rounded-full"
                         ></div>
-                        <!-- <p v-if="account.status === 'Active'"></p> -->
                         <p
                             :class="account.status === 'Active' ? 'text-brand-green-1 font-medium' : 'text-brand-orange-2'"
                         >{{ account.status }}</p>

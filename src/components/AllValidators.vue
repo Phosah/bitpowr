@@ -3,13 +3,21 @@
         <div class="flex items-center justify-between mb-6">
             <h2 class="text-brand-blue-3 text-xl">All Collections: 456</h2>
             <div class="flex items-center space-x-6">
-                <div class="flex items-center space-x-3 w-40 py-3 px-4 bg-brand-blue-6 rounded-md">
-                    <input class="bg-transparent w-full" type="text" placeholder="Filter" />
+                <div
+                    class="flex items-center space-x-3 w-40 py-4 px-4 bg-brand-blue-6 rounded-md border border-brand-blue-10"
+                >
+                    <input
+                        class="bg-transparent w-full h-full focus-within:outline-none"
+                        type="text"
+                        placeholder="Filter"
+                    />
                     <div>
                         <img src="../assets/filter-icon.svg" alt="Filter icon" />
                     </div>
                 </div>
-                <div class="flex items-center space-x-3 w-80 py-3 px-4 bg-brand-blue-6 rounded-md">
+                <div
+                    class="flex items-center space-x-3 w-80 py-3 px-4 bg-brand-blue-6 rounded-md border border-brand-blue-10"
+                >
                     <div>
                         <svg
                             class="w-6 h-6"
@@ -27,7 +35,7 @@
                         </svg>
                     </div>
                     <input
-                        class="bg-transparent w-full"
+                        class="bg-transparent w-full h-full focus-within:outline-none"
                         type="text"
                         placeholder="Search for collection"
                     />
@@ -83,7 +91,9 @@
                         <h3 class="text-brand-blue-3 font-medium">Jan 14, 2022</h3>
                     </div>
                     <div class="flex-1 text-brand-blue-1">
-                        <button class="py-2 px-6 border border-brand-blue-1 rounded-full">Delegate</button>
+                        <button class="py-2 px-6 border border-brand-blue-1 rounded-full">
+                            <router-link to="/delegatestake">Delegate</router-link>
+                        </button>
                     </div>
                 </div>
             </div>
