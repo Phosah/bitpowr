@@ -3,12 +3,12 @@
         <div class="flex items-center space-x-6">
             <div class="flex-1 p-8 bg-gradient-to-r from-brand-blue-7 to-brand-blue-8 rounded-2xl">
                 <p class="mb-8">
-                    <span class="text-brand-black-1 font-bold">Staking:</span> dolor sit amet, consectetur adipiscing elit. Libero velit aliquet non habitasse eu mauris ...
+                    <span class="font-recoleta-bold text-brand-black-1">Staking:</span> dolor sit amet, consectetur adipiscing elit. Libero velit aliquet non habitasse eu mauris ...
                     <span
                         class="border-b border-brand-blue-1 text-brand-blue-1 font-bold"
                     >Learn more</span>
                 </p>
-                <div class="flex items-center space-x-4">
+                <div class="font-euclid-medium flex items-center space-x-4">
                     <button
                         class="py-2 px-8 bg-brand-blue-1 text-white rounded-full"
                     >Create New Stake</button>
@@ -23,10 +23,10 @@
             <div class="flex items-center justify-between flex-1 p-8 bg-brand-orange-1 rounded-2xl">
                 <div class="w-2/3">
                     <p class="mb-8">
-                        <span class="text-brand-black-1 font-bold">EPOC 265:</span>
+                        <span class="font-recoleta-bold text-brand-black-1">EPOC 265:</span>
                         Dolor sit amet, consectetur adipiscing elit. Libero velit aliquet.
                     </p>
-                    <div class="flex items-center space-x-4">
+                    <div class="font-euclid-medium flex items-center space-x-4">
                         <button
                             class="py-2 px-8 border-2 border-brand-orange-2 text-brand-orange-2 rounded-full"
                         >How It works</button>
@@ -36,7 +36,7 @@
                     <img src="../assets/rainbow-img.png" alt="Rainbow img" />
                     <div class="absolute inset-0 flex items-end justify-center">
                         <div class="text-center">
-                            <h3 class="text-2xl text-brand-black-1 font-bold">65%</h3>
+                            <h3 class="font-proxima-bold text-2xl text-brand-black-1">65%</h3>
                             <p>1d:23m:45s</p>
                         </div>
                     </div>

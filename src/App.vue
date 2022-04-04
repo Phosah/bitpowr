@@ -25,6 +25,16 @@ import Sidebar from "./components/Sidebar.vue";
   src: local("Recoleta"), url("./font/Recoleta-Regular.otf") format("OpenType");
 }
 @font-face {
+  font-family: "Recoleta";
+  font-weight: 600;
+  src: local("Recoleta"), url("./font/Recoleta-Semibold.ttf") format("OpenType");
+}
+@font-face {
+  font-family: "Recoleta";
+  font-weight: 700;
+  src: local("Recoleta"), url("./font/Recoleta-Bold.ttf") format("OpenType");
+}
+@font-face {
   font-family: "Proxima Nova";
   font-weight: 400;
   src: local("ProximaNova"),
@@ -52,6 +62,14 @@ import Sidebar from "./components/Sidebar.vue";
 .font-recoleta-regular {
   font-family: "Recoleta", sans-serif;
   font-weight: 400;
+}
+.font-recoleta-semibold {
+  font-family: "Recoleta", sans-serif;
+  font-weight: 600;
+}
+.font-recoleta-bold {
+  font-family: "Recoleta", sans-serif;
+  font-weight: 700;
 }
 .font-proxima-regular {
   font-family: "Proxima Nova", sans-serif;

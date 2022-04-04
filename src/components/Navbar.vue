@@ -5,7 +5,7 @@
                 <div class="flex items-center space-x-3">
                     <h2 class="font-recoleta-regular text-xl text-brand-black-1">
                         Hello
-                        <span class="font-extrabold">James</span>
+                        <span class="font-recoleta-bold">James</span>
                     </h2>
                     <img src="../assets/hand-icon.png" alt="Hands icon" />
                 </div>

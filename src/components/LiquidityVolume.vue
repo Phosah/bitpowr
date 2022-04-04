@@ -11,7 +11,7 @@
             </h3>
         </div>
         <div>
-            <img src="../assets/liquidity-graph.png" alt="Liquidity volume graph" />
+            <img class="w-full" src="../assets/liquidity-graph.png" alt="Liquidity volume graph" />
         </div>
     </div>
 </template>

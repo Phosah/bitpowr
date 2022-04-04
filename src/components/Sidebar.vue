@@ -79,7 +79,7 @@ import { defineComponent, ref } from 'vue'
 
 export default defineComponent({
     setup() {
-        const isActive = ref('')
+        const isActive = ref('dashboard')
 
         return { isActive }
     },

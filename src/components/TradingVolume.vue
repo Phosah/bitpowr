@@ -11,7 +11,7 @@
             </h3>
         </div>
         <div>
-            <img src="../assets/trading-volume-graph.png" alt="Trading volume graph" />
+            <img class="w-full" src="../assets/trading-volume-graph.png" alt="Trading volume graph" />
         </div>
     </div>
 </template>
