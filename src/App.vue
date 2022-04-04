@@ -1,5 +1,7 @@
 <template>
-  <div class="font-proxima-regular flex max-w-7xl mx-auto bg-[#F5F6FA] text-brand-blue-2 text-sm">
+  <div
+    class="font-proxima-regular flex w-full max-w-7xl mx-auto bg-[#F5F6FA] text-brand-blue-2 text-sm"
+  >
     <div class="flex self-stretch">
       <Sidebar />
     </div>
