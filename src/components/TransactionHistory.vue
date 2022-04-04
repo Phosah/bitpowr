@@ -1,9 +1,11 @@
 <template>
     <div class="flex-1 py-8 px-6 mb-6 bg-white rounded-md">
         <div class="flex items-center justify-between mb-6">
-            <h2 class="text-brand-blue-3 text-xl">Transaction History</h2>
+            <h2 class="font-recoleta-semibold text-brand-blue-3 text-xl">Transaction History</h2>
             <div>
-                <button class="py-2 px-8 bg-brand-blue-1 text-white rounded-full">Create New Stake</button>
+                <button
+                    class="font-euclid-medium py-2 px-8 bg-brand-blue-1 text-white rounded-full"
+                >Create New Stake</button>
             </div>
         </div>
         <div class="flex items-center px-4 py-6 font-bold bg-brand-blue-6 rounded-md">

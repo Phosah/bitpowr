@@ -56,13 +56,23 @@
             <div class="mb-6 px-6 bg-white">
                 <div class="flex items-center space-x-10">
                     <p
-                        class="py-6 text-brand-blue-1 font-bold border-b-4 border-brand-blue-1"
+                        @click="selectTab('stakedAccounts')"
+                        :class="selectedTab === 'stakedAccounts' ? 'py-6 text-brand-blue-1 font-bold border-b-4 border-brand-blue-1' : 'py-6 border-b-4 border-white'"
+                        class
                     >Staked Accounts</p>
-                    <p class="py-6">Transaction History</p>
+                    <p
+                        @click="selectTab('transactionHistory')"
+                        :class="selectedTab === 'transactionHistory' ? 'py-6 text-brand-blue-1 font-bold border-b-4 border-brand-blue-1' : 'py-6 border-b-4 border-white'"
+                        class
+                    >Transaction History</p>
                 </div>
             </div>
-            <StakedAccounts :accounts="accountsArr" />
-            <TransactionHistory :accounts="accountsArr" />
+            <div v-show="selectedTab == 'stakedAccounts'">
+                <StakedAccounts :accounts="accountsArr" />
+            </div>
+            <div v-show="selectedTab == 'transactionHistory'">
+                <TransactionHistory :accounts="accountsArr" />
+            </div>
         </div>
     </div>
 </template>
@@ -251,4 +261,10 @@ const accountsArr = ref<StakedAccount[]>([
         date: "Jan 14, 2022"
     },
 ])
+
+const selectedTab = ref('transactionHistory')
+const selectTab = (tab: string) => {
+    selectedTab.value = tab
+    console.log(tab)
+}
 </script>

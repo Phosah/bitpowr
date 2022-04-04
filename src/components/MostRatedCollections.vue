@@ -2,11 +2,11 @@
     <div class="flex-1 py-8 px-6 mb-6 bg-white rounded-md">
         <div class="flex items-center justify-between mb-6">
             <div class="flex items-center space-x-2">
-                <h2 class="text-brand-blue-3 text-xl">Most Rated Collections</h2>
+                <h2 class="font-recoleta-semibold text-brand-blue-3 text-xl">Most Rated Collections</h2>
                 <img src="../assets/info-icon.svg" alt="Info icon" />
             </div>
             <div
-                class="flex items-center space-x-4 py-2 px-8 border border-brand-blue-1 text-brand-blue-1 rounded-full"
+                class="font-euclid-medium flex items-center space-x-4 py-2 px-8 border border-brand-blue-1 text-brand-blue-1 rounded-full"
             >View All</div>
         </div>
         <div class="flex items-center px-3 py-6 font-bold bg-brand-blue-6 rounded-md">
