@@ -58,12 +58,12 @@
                     <p
                         @click="selectTab('stakedAccounts')"
                         :class="selectedTab === 'stakedAccounts' ? 'py-6 text-brand-blue-1 font-bold border-b-4 border-brand-blue-1' : 'py-6 border-b-4 border-white'"
-                        class
+                        class="cursor-pointer"
                     >Staked Accounts</p>
                     <p
                         @click="selectTab('transactionHistory')"
                         :class="selectedTab === 'transactionHistory' ? 'py-6 text-brand-blue-1 font-bold border-b-4 border-brand-blue-1' : 'py-6 border-b-4 border-white'"
-                        class
+                        class="cursor-pointer"
                     >Transaction History</p>
                 </div>
             </div>
@@ -265,6 +265,5 @@ const accountsArr = ref<StakedAccount[]>([
 const selectedTab = ref('transactionHistory')
 const selectTab = (tab: string) => {
     selectedTab.value = tab
-    console.log(tab)
 }
 </script>

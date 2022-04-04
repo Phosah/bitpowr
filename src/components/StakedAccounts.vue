@@ -42,8 +42,14 @@
                         <p class="text-xs">{{ account.earningsSol }} SOL</p>
                     </div>
                     <div class="flex-1 flex items-center space-x-2">
-                        <div class="w-2 h-2 bg-brand-green-1 rounded-full"></div>
-                        <p class="text-brand-green-1 font-medium">{{ account.status }}</p>
+                        <div
+                            :class="account.status === 'Active' ? 'bg-brand-green-1' : 'bg-brand-orange-2'"
+                            class="w-2 h-2 rounded-full"
+                        ></div>
+                        <!-- <p v-if="account.status === 'Active'"></p> -->
+                        <p
+                            :class="account.status === 'Active' ? 'text-brand-green-1 font-medium' : 'text-brand-orange-2'"
+                        >{{ account.status }}</p>
                     </div>
                     <div class="flex-1 flex items-center space-x-2">
                         <h3 class="text-brand-blue-3 text-xs font-medium">{{ account.accountId }}</h3>
