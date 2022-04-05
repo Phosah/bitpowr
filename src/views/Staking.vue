@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 <div class="w-1/3 relative">
-                    <img src="../assets/rainbow-img.png" alt="Rainbow img" />
+                    <img class="mx-auto" src="../assets/rainbow-img.png" alt="Rainbow img" />
                     <div class="absolute inset-0 flex items-end justify-center">
                         <div class="text-center">
                             <h3 class="font-proxima-bold text-2xl text-brand-black-1">65%</h3>
