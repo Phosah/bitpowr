@@ -36,17 +36,23 @@
                         />
                     </svg>
                 </div>
-                <h1 class="font-bold text-lg text-brand-blue-3">Manage List</h1>
+                <h1 class="font-recoleta-bold text-lg text-brand-blue-3">Manage List</h1>
             </div>
             <div class="mb-6 flex items-center border-b border-brand-blue-10">
                 <div
-                    class="flex-1 mx-8 pb-4 text-center text-brand-blue-1 font-bold border-b-4 border-brand-blue-1"
+                    @click="selectTab('list')"
+                    :class="selectedTab === 'list' ? 'text-brand-blue-1 font-bold border-b-4 border-brand-blue-1' : 'border-white'"
+                    class="flex-1 mx-8 pb-4 text-center"
                 >Lists</div>
-                <div class="flex-1 mx-8 pb-4 text-center">Tokens</div>
+                <div
+                    @click="selectTab('token')"
+                    :class="selectedTab === 'token' ? 'text-brand-blue-1 font-bold border-b-4 border-brand-blue-1' : 'border-white'"
+                    class="flex-1 mx-8 pb-4 text-center"
+                >Tokens</div>
             </div>
             <div class="px-8">
                 <div
-                    class="mb-6 flex items-center space-x-3 w-full py-3 px-4 bg-brand-blue-6 rounded-md"
+                    class="mb-6 flex items-center space-x-3 w-full py-3 px-4 bg-brand-blue-6 rounded-md border border-brand-blue-10"
                 >
                     <div>
                         <svg
@@ -65,15 +71,15 @@
                         </svg>
                     </div>
                     <input
-                        class="bg-transparent w-full"
+                        class="bg-transparent w-full h-full focus-within:outline-none"
                         type="text"
                         placeholder="Search for collection"
                     />
                 </div>
-                <div v-if="list">
+                <div v-show="selectedTab === 'list'">
                     <Lists :lists="listsArr" />
                 </div>
-                <div v-if="token">
+                <div v-show="selectedTab === 'token'">
                     <ManageListTokens :tokens="tokensArr" />
                 </div>
             </div>
@@ -100,6 +106,10 @@ export default defineComponent({
     setup() {
         const token = ref(true)
         const list = ref(false)
+        const selectedTab = ref('list')
+        const selectTab = (tab: string) => {
+            selectedTab.value = tab
+        }
         const listsArr = ref<Token[]>([
             {
                 img: tokenImg6,
@@ -152,7 +162,7 @@ export default defineComponent({
                 tokenNum: 11
             },
         ])
-        return { listsArr, tokensArr, token, list }
+        return { listsArr, tokensArr, selectedTab, selectTab }
     },
 })
 </script>
