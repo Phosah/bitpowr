@@ -12,6 +12,7 @@ import SwapSuccessful from '../views/SwapSuccessful.vue'
 import ManageList from '../views/ManageList.vue'
 import LiquidityPool from '../views/LiquidityPool.vue'
 import AddLiquidity from '../views/AddLiquidity.vue'
+import LiquidityAddedSuccessfully from '../views/LiquidityAddedSuccessfully.vue'
 import SinglePool from '../views/SinglePool.vue'
 import CreatePair from '../views/CreatePair.vue'
 import Farms from '../views/Farms.vue'
@@ -84,6 +85,11 @@ const router = createRouter({
       path: '/addliquidity',
       name: 'AddLiquidity',
       component: AddLiquidity
+    },
+    {
+      path: '/liquidityaddedsuccessfully',
+      name: 'LiquidityAddedSuccessfully',
+      component: LiquidityAddedSuccessfully
     },
     {
       path: '/singlepool',

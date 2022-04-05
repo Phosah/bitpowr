@@ -65,7 +65,7 @@
                     <h3 class="text-brand-blue-3">Second Asset</h3>
                     <p>Balance: 12301.789657</p>
                 </div>
-                <div class="bg-brand-blue-11 border border-brand-blue-11 p-4 rounded-xl">
+                <div class="bg-brand-blue-11 border border-brand-blue-10 p-4 rounded-xl">
                     <div class="flex items-center justify-between">
                         <div class="flex items-center space-x-2">
                             <img src="../assets/small-usdt-logo.png" alt="usdt logo" />
@@ -94,7 +94,9 @@
                     <p>9.7%</p>
                 </div>
             </div>
-            <button class="w-full px-6 py-3 text-white bg-brand-blue-1 rounded-full">Add Liquidity</button>
+            <button class="w-full px-6 py-3 text-white bg-brand-blue-1 rounded-full">
+                <router-link to="/createpair">Add Liquidity</router-link>
+            </button>
         </div>
     </div>
 </template>

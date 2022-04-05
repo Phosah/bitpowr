@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="p-8 bg-white rounded-2xl">
-                <h1 class="mb-6 font-bold text-lg text-brand-blue-3">Create Pair</h1>
+                <h1 class="mb-6 font-recoleta-bold text-lg text-brand-blue-3">Create Pair</h1>
                 <p
                     class="mb-8"
                 >There is a possibility the pair you are creating already exists, do well to check the available pools. Regardless we have you covered, if it exists, we would add you to existing pool</p>
@@ -29,7 +29,7 @@
                         <h3 class="text-brand-blue-3">First Asset</h3>
                         <p>Balance: 0.789657</p>
                     </div>
-                    <div class="bg-brand-blue-11 border border-brand-blue-11 p-4 rounded-xl">
+                    <div class="bg-brand-blue-11 border border-brand-blue-10 p-4 rounded-xl">
                         <div class="flex items-center justify-between">
                             <div class="flex items-center space-x-2">
                                 <img src="../assets/small-btc-logo.png" alt="btc logo" />
@@ -51,7 +51,7 @@
                         <h3 class="text-brand-blue-3">Second Asset</h3>
                         <p>Balance: 12301.789657</p>
                     </div>
-                    <div class="bg-brand-blue-11 border border-brand-blue-11 p-4 rounded-xl">
+                    <div class="bg-brand-blue-11 border border-brand-blue-10 p-4 rounded-xl">
                         <div class="flex items-center justify-between">
                             <div class="flex items-center space-x-2">
                                 <img src="../assets/small-usdt-logo.png" alt="usdt logo" />
@@ -65,9 +65,9 @@
                         </div>
                     </div>
                 </div>
-                <button
-                    class="w-full px-6 py-3 text-white bg-brand-blue-1 rounded-full"
-                >Add Liquidity</button>
+                <button class="w-full px-6 py-3 text-white bg-brand-blue-1 rounded-full">
+                    <router-link to="/liquidityaddedsuccessfully">Add Liquidity</router-link>
+                </button>
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="font-proxima-regular flex w-full max-w-7xl mx-auto bg-[#F5F6FA] text-brand-blue-2 text-sm"
+    class="font-proxima-regular flex w-full max-w-[2000px] mx-auto bg-[#F5F6FA] text-brand-blue-2 text-sm xl:text-base"
   >
     <div class="flex self-stretch">
       <Sidebar />

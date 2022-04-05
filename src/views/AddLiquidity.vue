@@ -20,7 +20,7 @@
         </div>
         <div class="p-10 bg-white rounded-2xl">
             <div class="mb-8">
-                <h1 class="mb-4 text-xl font-bold text-brand-blue-3">Add Liquidity</h1>
+                <h1 class="mb-4 text-xl font-recoleta-bold text-brand-blue-3">Add Liquidity</h1>
                 <p
                     class="text-base"
                 >Select the means in which you would like to provide liquidity for the USDT/BTC liquidity pool</p>
@@ -60,7 +60,9 @@
                     class="w-10/12 text-[#90A0C2]"
                 >Provide any asset you have some funds. The funds you provide would be split among BTC & USDT equally and be added to the pool.</p>
             </div>
-            <button class="px-10 py-3 text-white text-center bg-brand-blue-1 rounded-full">Continue</button>
+            <button class="px-10 py-3 text-white text-center bg-brand-blue-1 rounded-full">
+                <router-link to="/singlepool">Continue</router-link>
+            </button>
         </div>
     </div>
 </template>

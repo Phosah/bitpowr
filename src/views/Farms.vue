@@ -21,7 +21,7 @@
             </div>
             <div class="w-1/2">
                 <p class="mb-8">
-                    <span class="text-brand-black-1 font-bold">Farms:</span> dolor sit amet, consectetur adipiscing elit. Libero velit aliquet non habitasse eu mauris consectetur adipiscing elit. ...
+                    <span class="text-brand-black-1 font-recoleta-bold">Farms:</span> dolor sit amet, consectetur adipiscing elit. Libero velit aliquet non habitasse eu mauris consectetur adipiscing elit. ...
                     <span
                         class="border-b border-brand-blue-1 text-brand-blue-1 font-bold"
                     >Learn more</span>
@@ -41,7 +41,7 @@
         </div>
         <div class="flex items-center justify-between space-x-10 mb-6">
             <div class="flex-1 flex items-center space-x-6">
-                <h2 class="text-brand-blue-3 text-xl font-bold">All Farms</h2>
+                <h2 class="text-brand-blue-3 text-xl font-recoleta-bold">All Farms</h2>
                 <div class="flex-1 flex items-center space-x-6">
                     <div
                         class="flex items-center space-x-3 w-full py-3 px-4 border border-brand-blue-10 rounded-md"
@@ -63,7 +63,7 @@
                             </svg>
                         </div>
                         <input
-                            class="w-full bg-transparent"
+                            class="w-full h-full focus-within:outline-none bg-transparent"
                             type="text"
                             placeholder="Search for tokens"
                         />
