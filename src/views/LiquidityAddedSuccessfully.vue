@@ -27,7 +27,7 @@
                     >Liquidity added successfully</h1>
                     <p>You have successfully added to the liquidity pool. You can even gain more rewards by staking your Liquidity (LP Tokens) in a BTC/USDT farm</p>
                 </div>
-                <div class="flex items-center space-x-4 justify-center">
+                <div class="flex items-center space-x-4 justify-center text-sm">
                     <button
                         class="py-2 px-6 border border-brand-blue-1 rounded-full text-brand-blue-1"
                     >Go to dashboard</button>
