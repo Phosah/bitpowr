@@ -7,7 +7,13 @@
             </div>
             <div class="flex items-center space-x-6">
                 <img src="../assets/refresh-icon.svg" alt="Refresh icon" />
-                <img src="../assets/settings-icon.svg" alt="Settings icon" />
+                <router-link to="/settings">
+                    <img
+                        class="cursor-pointer"
+                        src="../assets/settings-icon.svg"
+                        alt="Settings icon"
+                    />
+                </router-link>
             </div>
         </div>
         <div>
@@ -16,7 +22,7 @@
                     <h3 class="text-brand-blue-3">Sending</h3>
                     <p>Balance: 0.789657</p>
                 </div>
-                <div class="bg-brand-blue-11 border border-brand-blue-11 p-4 rounded-xl">
+                <div class="bg-brand-blue-11 border border-brand-blue-10 p-4 rounded-xl">
                     <div class="mb-3 flex items-center justify-between">
                         <div class="flex items-center space-x-2">
                             <img src="../assets/small-btc-logo.png" alt="btc logo" />
@@ -42,7 +48,7 @@
                     <h3 class="text-brand-blue-3">Receiving</h3>
                     <p>Balance: 0.789657</p>
                 </div>
-                <div class="bg-brand-blue-11 border border-brand-blue-11 p-4 rounded-xl">
+                <div class="bg-brand-blue-11 border border-brand-blue-10 p-4 rounded-xl">
                     <div class="mb-3 flex items-center justify-between">
                         <div class="flex items-center space-x-2">
                             <img src="../assets/small-usdt-logo.png" alt="btc logo" />
@@ -65,7 +71,7 @@
                 <p>14%</p>
             </div>
             <!-- display for slippage settings -->
-            <div class="mb-8 p-4 border border-brand-blue-11 rounded-xl">
+            <div class="mb-8 p-4 border border-brand-blue-10 rounded-xl">
                 <div class="mb-3 flex items-center justify-between text-xs">
                     <p>Slippage Tolerance</p>
                     <p>14%</p>
@@ -83,7 +89,9 @@
                     <p>0.0065 ETH (~$32.56)</p>
                 </div>
             </div>
-            <button class="w-full px-6 py-3 text-white bg-brand-blue-1 rounded-full">Swap</button>
+            <button class="w-full px-6 py-3 text-white bg-brand-blue-1 rounded-full">
+                <router-link to="/swapconfirmation">Swap</router-link>
+            </button>
         </div>
     </div>
 </template>

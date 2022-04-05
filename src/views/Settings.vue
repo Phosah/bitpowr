@@ -19,8 +19,8 @@
             </div>
         </div>
         <div class="p-8 bg-white rounded-2xl">
-            <h1 class="mb-8 font-bold text-lg text-brand-blue-3">Advanced Settings</h1>
-            <div class="mb-16">
+            <h1 class="mb-8 font-recoleta-bold text-lg text-brand-blue-3">Advanced Settings</h1>
+            <div class="mb-12">
                 <h2 class="mb-4 text-brand-blue-3 font-semibold text-base">Slippage Tolerance</h2>
                 <div class="mb-2 flex items-center space-x-3 text-brand-blue-3">
                     <div
@@ -39,7 +39,7 @@
                 <p class="text-brand-orange-2">Transaction might fail</p>
             </div>
             <div class="flex items-center justify-between">
-                <p class="text-brand-blue-3 font-semibold text-base">Transaction deadline</p>
+                <p class="text-brand-blue-3 text-base">Transaction deadline</p>
                 <div
                     class="text-base px-3 py-2 rounded-full border border-brand-blue-10 text-center"
                 >12min</div>
@@ -68,7 +68,7 @@
             </div>
         </div>
         <div class="p-8 bg-white rounded-2xl">
-            <h1 class="mb-8 font-bold text-lg text-brand-blue-3">Select Token</h1>
+            <h1 class="mb-8 font-recoleta-bold text-lg text-brand-blue-3">Select Token</h1>
             <div
                 class="mb-6 flex items-center space-x-3 w-full py-3 px-4 bg-brand-blue-6 rounded-md"
             >

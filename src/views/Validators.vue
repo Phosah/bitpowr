@@ -21,7 +21,7 @@
             </div>
             <div class="w-1/2">
                 <p class="mb-8">
-                    <span class="text-brand-black-1 font-bold">Validator:</span> dolor sit amet, consectetur adipiscing elit. Libero velit aliquet non habitasse eu mauris ...
+                    <span class="text-brand-black-1 font-recoleta-bold">Validator:</span> dolor sit amet, consectetur adipiscing elit. Libero velit aliquet non habitasse eu mauris ...
                     <span
                         class="border-b border-brand-purplel-2 text-brand-purple-2 font-bold"
                     >Learn more</span>

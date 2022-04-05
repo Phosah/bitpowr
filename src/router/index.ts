@@ -8,6 +8,7 @@ import DelegateStake from '../views/DelegateStake.vue'
 import SwapBridge from '../views/SwapBridge.vue'
 import Settings from '../views/Settings.vue'
 import SwapConfirmation from '../views/SwapConfirmation.vue'
+import SwapSuccessful from '../views/SwapSuccessful.vue'
 import ManageList from '../views/ManageList.vue'
 import LiquidityPool from '../views/LiquidityPool.vue'
 import AddLiquidity from '../views/AddLiquidity.vue'
@@ -63,6 +64,11 @@ const router = createRouter({
       path: '/swapconfirmation',
       name: 'SwapConfirmation',
       component: SwapConfirmation
+    },
+    {
+      path: '/swapsuccessful',
+      name: 'SwapSuccessful',
+      component: SwapSuccessful
     },
     {
       path: '/managelist',

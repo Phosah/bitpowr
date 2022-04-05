@@ -1,7 +1,7 @@
 <template>
     <div class="flex-1 py-8 px-6 mb-6 bg-white rounded-md">
         <div class="flex items-center justify-between mb-6">
-            <h2 class="text-brand-blue-3 text-xl">All Collections: 456</h2>
+            <h2 class="font-recoleta-bold text-brand-blue-3 text-xl">All Collections: 456</h2>
             <div
                 class="flex items-center space-x-3 w-80 py-3 px-4 bg-brand-blue-6 rounded-md border border-brand-blue-10"
             >
