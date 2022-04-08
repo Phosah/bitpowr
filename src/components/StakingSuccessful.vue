@@ -25,7 +25,7 @@
                     <h1 class="mb-6 font-recoleta-bold text-xl text-brand-blue-3">Staking successful</h1>
                     <p>You have successfully staked 12900 SOL check back in a couple of days to see your tasty rewards acuumulating</p>
                 </div>
-                <div class="flex items-center space-x-10 justify-center">
+                <div class="flex items-center space-x-10 justify-center text-sm">
                     <button
                         class="py-2 px-6 border border-brand-blue-1 rounded-full text-brand-blue-1"
                     >Go to dashboard</button>

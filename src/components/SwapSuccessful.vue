@@ -25,7 +25,7 @@
                     <h1 class="mb-6 font-recoleta-bold text-xl text-brand-blue-3">Swap successful</h1>
                     <p>The transaction has been successfully processed in the liquidity pool. The transfer may still be in process. Please check the transaction record later.</p>
                 </div>
-                <div class="flex items-center space-x-4 justify-center">
+                <div class="flex items-center space-x-4 justify-center text-sm">
                     <button
                         class="py-2 px-6 border border-brand-blue-1 rounded-full text-brand-blue-1"
                     >Make another Swap</button>
