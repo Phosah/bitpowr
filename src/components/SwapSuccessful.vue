@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="p-8 rounded-2xl bg-white">
-            <div class="w-10/12 mx-auto text-center">
+            <div class="w-10/12 mx-auto text-center text-sm">
                 <div class="my-14">
                     <h1 class="mb-6 font-recoleta-bold text-xl text-brand-blue-3">Swap successful</h1>
                     <p>The transaction has been successfully processed in the liquidity pool. The transfer may still be in process. Please check the transaction record later.</p>
